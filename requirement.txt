@@ -1,0 +1,4 @@
+llama-cpp-python library: pip install llama-cpp-python
+phi2 Q4 model from huggingface: 
+  pip install huggingface-hub
+  huggingface-cli download TheBloke/phi-2-GGUF phi-2.Q4_K_M.gguf --local-dir . --local-dir-use-symlinks False
